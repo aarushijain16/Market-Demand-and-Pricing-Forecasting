@@ -61,6 +61,21 @@ Three supervised ML models were trained and evaluated within each cluster:
 
 - R² (explanatory power)
 
+# Model Validation Approach
+
+Direct demand data (e.g., bookings or occupancy) was not available in the Airbnb dataset. 
+To address this, demand was estimated using a composite proxy derived from availability, reviews, pricing, and listing characteristics.
+
+As a result, traditional “actual vs predicted” validation plots were intentionally avoided, 
+to prevent treating proxy demand as ground truth.
+
+Model evaluation therefore focused on:
+- Relative performance comparison across models (RMSE)
+- Explanatory power (R²)
+- Consistency of results across room-type segments
+
+This approach ensures methodological rigor while still enabling reliable comparison and selection of the most suitable predictive model.
+
 # Key Model Results
 
 - XGBoost consistently outperformed other models across all room types
@@ -100,3 +115,6 @@ The modelling framework enables:
 - Better host revenue planning
 
 - Scalable application to other global cities
+
+
+

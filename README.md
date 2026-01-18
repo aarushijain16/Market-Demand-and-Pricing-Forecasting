@@ -2,7 +2,7 @@
 
 # Overview
 
-This project demonstrates how market demand and pricing insights can be forecasted even when direct demand data is unavailable — a common challenge in real-world marketplaces.
+This project demonstrates how market demand and pricing insights can be forecasted even when direct demand data is unavailable, a common challenge in real-world marketplaces.
 
 Using Python and machine learning, I analysed long-term Airbnb listing data for London to:
 
